@@ -4,7 +4,7 @@
 这是一个spotfire mods插件，用于将spotfire的数据转为带统计结果的树状结构
 <img src="resources/usermanager1.png" width="60%" height="60%">
 <br>
-<img src="resources/mods-checkboxTree.gif" width="60%" height="60%">
+<video src="resources/spotfire-mods_checkboxTree.mp4"></video>
 
 ### 功能简介
 能通过指定他绑定的table，使用spotfire自己的统计功能，附带到树状结构上，且统计值动态变化
