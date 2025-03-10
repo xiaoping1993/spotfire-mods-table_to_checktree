@@ -1,0 +1,36 @@
+{
+    "apiVersion": "1.3",
+    "version": "1.0",
+    "name": "Mods Hcrp Diagnose",
+    "id": "mods-hcrp-diagnose",
+    "icon": "icon.svg",
+    "properties": [
+        {
+            "name": "myProperty",
+            "type": "string",
+            "defaultValue": ""
+        }
+    ],
+    "dataViewDefinition": {
+        "colorAxis": {
+            "mode": "dual",
+            "dropTarget": {
+                "icon": "Color",
+                "description": "Color by {0}"
+            }
+        },
+        "axes": [
+            {
+                "name": "multistage-separation",
+                "mode": "categorical",
+                "placement": "bottom"
+            },
+            {
+                "name": "childs-count",
+                "mode": "continuous",
+                "placement": "left"
+            }
+        ]
+    },
+    "files": ["index.html", "main.css", "TreeView.css","build/main.js"]
+}

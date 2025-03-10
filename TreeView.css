@@ -1,0 +1,59 @@
+.tree-container {
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.tree-node {
+    margin: 4px 0;
+    position: relative;
+}
+
+.node-children {
+    margin-left: 24px;
+    border-left: 1px solid #e8e8e8;
+    padding-left: 12px;
+}
+
+.node-content {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    cursor: pointer;
+    color: #666;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    user-select: none;
+}
+
+.node-checkbox {
+    margin: 0 8px;
+}
+
+.node-label {
+    font-weight: 500;
+    color: #2c3e50;
+    margin-right: 8px;
+}
+
+.node-value {
+    color: #409EFF;
+    background: rgba(64, 158, 255, 0.1);
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.tree-node:hover > .node-content {
+    background-color: #f5f7fa;
+    border-radius: 4px;
+} 
